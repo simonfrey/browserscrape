@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SSE Page HTML Dumper</title>
+    <style>
+        body { width: 300px; padding: 10px; }
+        button { width: 100%; padding: 5px; margin-bottom: 10px; }
+        .uuid { font-weight: bold; margin-top: 10px; }
+    </style>
+</head>
+<body>
+<div id="urls">
+    <h2>Urls:</h2>
+    <p>Scrape HTML: <code>https://simon.red/browserscrape/scrape/html/<span class="uuid"></span>/<b>&lt;url&gt;</b></code></p>
+    <p>Scrape Markdown: <code>https://simon.red/browserscrape/scrape/md/<span class="uuid"></span>/<b>&lt;url&gt;</b></code></p>
+</div>
+<h2>Current UUID:</h2>
+<div class="uuid">Loading...</div>
+<button id="resetUUID">Regenerate UUID</button>
+<script src="popup.js"></script>
+</body>
+</html>

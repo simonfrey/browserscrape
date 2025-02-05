@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Browserscrape",
+  "version": "1.0",
+  "permissions": [
+    "cookies",
+    "downloads",
+    "scripting",
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
