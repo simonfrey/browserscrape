@@ -16,3 +16,4 @@ Neat little tool to use your very own browser for webscraping. **Early beta**
 
 - This is a very early beta
 - Default extension runs with MY (Simons) Server. You HAVE TO TRUST ME. As I could go rouge and just let your browser open whatever url I want. Self-host the server if you want to be ultra-secure
+- It only works when the extension is connected to the server. If your browser is closed, NO SCRAPY SCRAPY!
