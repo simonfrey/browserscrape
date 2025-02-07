@@ -22,9 +22,11 @@ Neat little tool to use your very own browser for webscraping. **Early beta**
 
 ### Installation & Setup
 **Q: Do I need programming knowledge to install this extension?**
+
 A: No, you can simply download the ZIP folder from GitHub and follow the installation instructions. No programming or GitHub experience is required.
 
 **Q: How is the UUID (unique identifier) generated and managed?**
+
 A: The UUID is randomly generated when you first install the extension. It's stored in your browser's local storage and only changes if you:
 - Reinstall the extension
 - Click the "regenerate UUID" button
@@ -32,13 +34,16 @@ A: The UUID is randomly generated when you first install the extension. It's sto
 
 ### Technical Details
 **Q: Does this extension run on a remote server?**
+
 A: Yes, there is a server component that connects your browser to the domain https://simon.red/browserscrape/. This server acts as a bridge between your browser instance and the extension.
 
 **Q: What are the server costs and scalability?**
+
 A: The server requirements are minimal since it primarily functions as a message relay. One server can handle thousands of users for less than $1/month, as it only pipes text between endpoints without heavy processing.
 
 ### Security & Detection
 **Q: Can websites detect this as a shared or duplicate login?**
+
 A: No, websites won't detect this as logging in from multiple locations because all traffic comes from your original browser location. However, be aware that:
 - Unusual navigation patterns might be flagged as bot behavior
 - Rapid, repeated page loads may appear suspicious
@@ -46,4 +51,5 @@ A: No, websites won't detect this as logging in from multiple locations because 
 
 ### Distribution
 **Q: Why isn't this extension available in the Chrome Web Store?**
+
 A: Due to Chrome Web Store's strict policies regarding browser automation and scraping tools, this extension cannot be distributed through their platform. This is common for similar tools. would navigate to, or if you e.g. open the page 9 times per minute it also might be a non-natural usage pattern. But the risk is that same as if you would use local browser automation. 
